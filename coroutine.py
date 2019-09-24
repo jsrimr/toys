@@ -1,7 +1,5 @@
 # co routine next 와 send  close s이용해보기
-
 # sub coroutine 을 main_coroutine 에서 호출하기
-
 def subcoroutine():
     x = yield 10
     print("Recv : ", x)
